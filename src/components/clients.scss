@@ -1,0 +1,53 @@
+.clients {
+   text-align: center;
+   overflow-x: hidden;
+ 
+   h1 {
+     margin-bottom: 20px;
+   }
+ 
+   .slider-main {
+     margin: 0 auto;
+     max-width: 800px;
+ 
+     .slick-slider {
+       .slick-list {
+         overflow: visible;
+       }
+ 
+       .slick-slide {
+         margin: 0 10px;
+ 
+         img {
+           width: 100%;
+           height: auto;
+           border-radius: 5px;
+           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+         }
+       }
+ 
+       .slick-dots {
+         bottom: -30px;
+ 
+         li {
+           margin: 0 5px;
+ 
+           button {
+             font-size: 0;
+             width: 12px;
+             height: 12px;
+             border-radius: 50%;
+             background-color: #ccc;
+             border: none;
+             cursor: pointer;
+ 
+             &.slick-active {
+               background-color: #333;
+             }
+           }
+         }
+       }
+     }
+   }
+ }
+ 

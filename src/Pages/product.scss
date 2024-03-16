@@ -1,0 +1,14 @@
+.product{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    margin: 6rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    .product-img{
+        width: 100%;
+    }
+    .product-info{
+        width: 100%;
+    }
+}
